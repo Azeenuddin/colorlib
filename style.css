@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.b{
+    border: 1px solid red;
+}
+.nav li a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #939393;
+    
+}
+ul{
+    justify-content: space-evenly;
+    align-items: start;
+}
+.launch{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    padding: 30px 0px 30px 0px;
+}
+.card ul li{
+    width: 180px;
+}
+
+/* foooter */
+
+.icon{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.font{
+    font-family: "Nunito", sans-serif;
+   
+}
+.fonts{
+    font-size: 19px;
+}
+
+.clr{
+    color: #939393;
+}
+
+/* price btn hvr  */
+.pbh:hover{
+    background-color: #407bff !important;
+    color: white !important;
+}
+h3{
+    font-size: 19px !important;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.non a{
+    text-decoration: none;
+    color: #939393;
+}
+
+.hvr h3:hover {
+    color: #407bff;
+
+}
+
+
+.hvr:hover{
+    /* padding-top: -10px; */
+    transition-duration: .4s;
+    margin-top: 1px !important;
+}
+.arr:hover{
+    /* padding-top: -10px; */
+    transition-duration: .9s;
+    margin-left:18px !important;
+}
+
